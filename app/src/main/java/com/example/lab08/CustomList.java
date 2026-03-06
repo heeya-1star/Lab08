@@ -11,13 +11,13 @@ public class CustomList {
     }
 
     public void addCity(City city) {
-        //cities.add(city);
+        cities.add(city);
     }
 
-   // public int countCities() {
-       //return cities.size();
+    public int countCities() {
+       return cities.size();
 
-   // }
+    }
 
     // Will be implemented later using TDD (leave blank for now)
      public boolean hasCity(City city) {
