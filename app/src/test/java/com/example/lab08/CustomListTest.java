@@ -15,12 +15,14 @@ public class CustomListTest {
     }
 
     @Test
-    public void addCityTest() {
+    public void countCityTest() {
         CustomList list = new CustomList();
         int listSize = list.countCities();
         list.addCity(new City("Estevan", "SK"));
         assertEquals(listSize + 1, list.countCities());
     }
+
+
 
 
 }
